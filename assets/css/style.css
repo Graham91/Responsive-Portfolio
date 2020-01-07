@@ -1,0 +1,214 @@
+#page-conatiner {
+    position: relative;
+    min-height: 100vh;
+}
+body{ margin: 0 ;
+    background-color: rgb(235, 233, 233);
+
+}
+H2 {color: teal;}
+
+#size {width: 50%;
+    height: 50%;
+    margin-right: 10px;
+    float: left;
+    clear: both;
+}
+.headlinks{
+    text-decoration: none;
+    float: right;
+    width:12%;
+    margin-top: 40px;
+    padding:5px;
+    font-size: 1.1em;
+}
+
+#Name{float: left;
+width: 50%;
+margin-left: 20px;
+margin-top: 30px;
+font-family: 'times';
+color:rgb(235, 233, 233);}
+
+.block{
+    background-color: teal;
+    height:100px;
+
+}
+.block2{
+    background-color: rgb(187, 187, 187);
+    height:100px;
+    overflow: hidden;
+}
+#Name2{
+    width: 25%;
+    float:left;
+    margin: 0;
+    margin-left: 10%;
+    font-family: 'times';
+    text-align: center;
+    height: 100px;
+    background-color: teal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(235, 233, 233);}
+
+.maincontainer3 {
+  border: solid 1px black ;
+   width: 80%;
+   margin-right: auto;
+   margin-left: 10%;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   padding: 5px;
+   margin-bottom: 70px;
+   max-width: 960px;
+   z-index: 2;
+
+}
+.pictureadjust{
+     display: flex;
+   flex-wrap: wrap;  
+}
+
+p {line-height: 20px;}
+
+.footer2{height:70px;
+    width: 100%;
+    background-color: teal;
+    position: absolute;
+    bottom: 0;
+}
+.footer{height:70px;
+    width: 100%;
+    background-color: teal;}
+
+    .footerextra{background-color: grey;
+     height: 5px;
+    width:100%;
+    z-index: 20;}
+    
+.name33{
+    width:100%;
+}
+.name36{
+    width:100%;
+}
+
+.heightbox{
+    height:200px;
+}
+.maincontainer2 {
+    border: solid 1px black ;
+     width: 80%;
+     margin-right: 10%;
+     margin-left: 10%;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     padding: 15px;
+  }
+.footpadding{height: 70px;
+margin:0;}
+
+.picture{ 
+    padding: 10px 25px;
+}
+
+.endpic{
+    clear: both;
+    height: 250px;
+    width:100%;
+
+}
+.Label{
+   position: relative;
+    background-color: teal;
+bottom: 65px;
+padding: 15px;
+color:rgb(235, 233, 233);
+font-weight: bold;
+line-height: 20px;
+}
+
+@media screen and (min-width: 600px)  {
+.name33{
+    width: 475px;
+    text-align: left;
+}
+.name35{
+    text-align: left;
+}
+.name36{
+    width:100% !important;
+}
+}
+@media screen and (min-width: 1200px)  {
+    .maincontainer2{
+        max-width: 960px;
+        margin-left: 10%;
+    }
+
+}
+
+@media screen and (max-width: 600px){
+    .picshrink{
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 1100px)
+{
+    .headlinks{
+        display: none;
+    }
+}
+@media screen and (min-width: 1100px)
+{
+    .dropbtn{
+        display: none;
+    }
+}
+/* Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    position: relative;
+    bottom:60px;
+    right:60px;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    background-color: #f1f1f1;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
