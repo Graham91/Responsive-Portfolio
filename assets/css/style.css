@@ -131,6 +131,10 @@ font-weight: bold;
 line-height: 20px;
 }
 
+.picshrink {
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
 @media screen and (min-width: 600px)  {
 .name33{
     width: 475px;
